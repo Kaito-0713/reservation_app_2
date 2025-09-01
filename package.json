@@ -1,5 +1,5 @@
 {
-  "name": "reservation-app-v2",
+  "name": "reservation-app",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
@@ -12,6 +12,15 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@babel/core": "7.22.5",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-runtime": "^7.28.3",
+    "@babel/preset-env": "7.22.5",
+    "@babel/runtime": "^7.28.3",
+    "babel-loader": "8.2.5",
     "webpack-dev-server": "3"
   }
 }

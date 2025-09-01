@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ReservationAppV2</title>
+    <title>宿泊予約アプリ</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_pack_tag "application", "data-turbolinks-track": "reload", defer: true %>
   </head>
 
   <body>
-    <%= yield %>
+    <header class="site-header">
+      <nav class="nav">
+        <%= link_to "Home", root_path %>
+
+        <div style="margin-left:auto;"></div>
+
+        <% if user_signed_in? %>
+          <details class="user-menu" style="display:inline-block;">
+            <summary style="list-style:none; cursor:pointer;">
+              <%# アイコン（なければデフォルト） %>
+              <% if current_user.icon_image&.attached? %>
+                <%= image_tag current_user.icon_image.variant(resize_to_fill: [32,32]), alt: "icon", style: "border-radius:50%; vertical-align:middle;" %>
+              <% else %>
+                <%= image_tag "icon.png", size: "32x32", alt: "icon", style: "border-radius:50%; vertical-align:middle;" %>
+              <% end %>
+              <span style="margin-left:8px;"><%= current_user.name.presence || "ユーザー" %></span>
+            </summary>
+            <div class="menu" style="position:absolute; background:#fff; border:1px solid #ddd; padding:8px 12px; border-radius:8px;">
+              <div><%= link_to "マイページ", user_path(current_user) %></div>
+              <div><%= link_to "予約一覧", reservations_path %></div>
+              <div><%= link_to "アカウント編集(メール/パスワード/アイコン)", edit_user_registration_path %></div>
+              <hr>
+              <div><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></div>
+            </div>
+          </details>
+        <% else %>
+          <%= link_to "ログイン", new_user_session_path %> |
+          <%= link_to "新規登録", new_user_registration_path %>
+        <% end %>
+      </nav>
+    </header>
+
+    <main>
+      <% if notice %><p class="notice"><%= notice %></p><% end %>
+      <% if alert %><p class="alert"><%= alert %></p><% end %>
+      <%= yield %>
+    </main>
   </body>
 </html>
+
