@@ -1,12 +1,12 @@
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-C:/Ruby27/bin/ruby.exe -I C:/Ruby27/lib/ruby/2.7.0 -r ./siteconf20250901-44904-2bv1ho.rb extconf.rb
+C:/Ruby27/bin/ruby.exe -I C:/Ruby27/lib/ruby/site_ruby/2.7.0 extconf.rb
 creating Makefile
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-make "DESTDIR=" clean
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-lycod1 sitelibdir\=./.gem.20250902-58068-lycod1 clean
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-make "DESTDIR="
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-lycod1 sitelibdir\=./.gem.20250902-58068-lycod1
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -76,5 +76,5 @@ compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.so
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20250901-44904-11nojgj/sassc
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-lycod1 sitelibdir\=./.gem.20250902-58068-lycod1 install
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20250902-58068-lycod1/sassc

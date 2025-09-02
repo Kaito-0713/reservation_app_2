@@ -47,7 +47,7 @@ PATH: /c/ProgramData/chocolatey/bin/
 PATH: /c/Program Files/Git/cmd/
 PATH: /c/Program Files/nodejs/
 PATH: /c/Ruby27/bin/
-PATH: /c/Users/kkait/Downloads/sqlite-tools-win-x64-3500400 (1)/
+PATH: /c/Users/kkait/Downloads/sqlite-tools-win-x64-3500400/
 PATH: /c/Program Files (x86)/Yarn/bin/
 PATH: /c/Users/kkait/AppData/Local/Programs/Microsoft VS Code/bin/
 PATH: /c/Users/kkait/AppData/Roaming/npm/
@@ -512,7 +512,7 @@ configure:13596: checking whether to build static libraries
 configure:13600: result: yes
 configure:13640: checking for fdatasync
 configure:13640: gcc -o conftest.exe -fPIC -O2 -fvisibility=hidden -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1   conftest.c  >&5
-C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccYntDst.o:conftest.c:(.text.startup+0xc): undefined reference to `fdatasync'
+C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccAajbd7.o:conftest.c:(.text.startup+0xc): undefined reference to `fdatasync'
 collect2.exe: error: ld returned 1 exit status
 configure:13640: $? = 1
 configure: failed program was:
@@ -576,7 +576,7 @@ configure:13646: $? = 0
 configure:13646: result: yes
 configure:13652: checking for fullfsync
 configure:13652: gcc -o conftest.exe -fPIC -O2 -fvisibility=hidden -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1   conftest.c  >&5
-C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccu9j8Bl.o:conftest.c:(.text.startup+0xc): undefined reference to `fullfsync'
+C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\cc6zouc4.o:conftest.c:(.text.startup+0xc): undefined reference to `fullfsync'
 collect2.exe: error: ld returned 1 exit status
 configure:13652: $? = 1
 configure: failed program was:
@@ -637,7 +637,7 @@ configure: failed program was:
 configure:13652: result: no
 configure:13658: checking for localtime_r
 configure:13658: gcc -o conftest.exe -fPIC -O2 -fvisibility=hidden -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1   conftest.c  >&5
-C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccyBh4CF.o:conftest.c:(.text.startup+0xc): undefined reference to `localtime_r'
+C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccEaj7Pg.o:conftest.c:(.text.startup+0xc): undefined reference to `localtime_r'
 collect2.exe: error: ld returned 1 exit status
 configure:13658: $? = 1
 configure: failed program was:
@@ -698,7 +698,7 @@ configure: failed program was:
 configure:13658: result: no
 configure:13664: checking for gmtime_r
 configure:13664: gcc -o conftest.exe -fPIC -O2 -fvisibility=hidden -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1   conftest.c  >&5
-C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccQ3D3GJ.o:conftest.c:(.text.startup+0xc): undefined reference to `gmtime_r'
+C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccW7q1Tz.o:conftest.c:(.text.startup+0xc): undefined reference to `gmtime_r'
 collect2.exe: error: ld returned 1 exit status
 configure:13664: $? = 1
 configure: failed program was:
@@ -1016,7 +1016,7 @@ configure:14183: $? = 0
 configure:14203: result: none required
 configure:14227: checking for library containing dlopen
 configure:14257: gcc -o conftest.exe -fPIC -O2 -fvisibility=hidden -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1   conftest.c  >&5
-C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccG5irw7.o:conftest.c:(.text.startup+0xc): undefined reference to `dlopen'
+C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccAMRhjh.o:conftest.c:(.text.startup+0xc): undefined reference to `dlopen'
 collect2.exe: error: ld returned 1 exit status
 configure:14257: $? = 1
 configure: failed program was:
@@ -1134,7 +1134,7 @@ configure:14556: checking Build type
 configure:14564: result: release
 configure:14588: checking for posix_fallocate
 configure:14588: gcc -o conftest.exe -fPIC -O2 -fvisibility=hidden -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1   conftest.c  >&5
-C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccWkSx9C.o:conftest.c:(.text.startup+0xc): undefined reference to `posix_fallocate'
+C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccOayXie.o:conftest.c:(.text.startup+0xc): undefined reference to `posix_fallocate'
 collect2.exe: error: ld returned 1 exit status
 configure:14588: $? = 1
 configure: failed program was:
@@ -1200,7 +1200,7 @@ configure:14597: $? = 0
 configure:14597: result: yes
 configure:14602: checking for library containing deflate
 configure:14632: gcc -o conftest.exe -fPIC -O2 -fvisibility=hidden -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1   conftest.c  >&5
-C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccss69mr.o:conftest.c:(.text.startup+0xc): undefined reference to `deflate'
+C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccIumaYf.o:conftest.c:(.text.startup+0xc): undefined reference to `deflate'
 collect2.exe: error: ld returned 1 exit status
 configure:14632: $? = 1
 configure: failed program was:

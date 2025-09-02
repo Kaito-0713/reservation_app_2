@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/ammar/regexp_parser".freeze
   s.licenses = ["MIT".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.0.0".freeze)
-  s.rubygems_version = "3.1.6".freeze
+  s.rubygems_version = "3.3.26".freeze
   s.summary = "Scanner, lexer, parser for ruby's regular expressions".freeze
 
-  s.installed_by_version = "3.1.6" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.3.26" if s.respond_to? :installed_by_version
 end
