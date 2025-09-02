@@ -1,5 +1,5 @@
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/msgpack-1.8.0/ext/msgpack
-C:/Ruby27/bin/ruby.exe -I C:/Ruby27/lib/ruby/2.7.0 -r ./siteconf20250901-44904-1bn8nci.rb extconf.rb
+C:/Ruby27/bin/ruby.exe -I C:/Ruby27/lib/ruby/site_ruby/2.7.0 extconf.rb
 checking for rb_enc_interned_str() in ruby.h... no
 checking for rb_hash_new_capa() in ruby.h... no
 checking for rb_proc_call_with_block() in ruby.h... yes
@@ -13,10 +13,10 @@ checking for whether -DSTR_UMINUS_DEDUPE_FROZEN=0 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/msgpack-1.8.0/ext/msgpack
-make "DESTDIR=" clean
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-wx3n2d sitelibdir\=./.gem.20250902-58068-wx3n2d clean
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/msgpack-1.8.0/ext/msgpack
-make "DESTDIR="
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-wx3n2d sitelibdir\=./.gem.20250902-58068-wx3n2d
 generating msgpack-i386-mingw32.def
 compiling buffer.c
 compiling buffer_class.c
@@ -40,5 +40,5 @@ compiling unpacker_ext_registry.c
 linking shared-object msgpack/msgpack.so
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/msgpack-1.8.0/ext/msgpack
-make "DESTDIR=" install
-/usr/bin/install -c -m 0755 msgpack.so ./.gem.20250901-44904-1x9i5bm/msgpack
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-wx3n2d sitelibdir\=./.gem.20250902-58068-wx3n2d install
+/usr/bin/install -c -m 0755 msgpack.so ./.gem.20250902-58068-wx3n2d/msgpack

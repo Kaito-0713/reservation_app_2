@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/flavorjones/mini_portile".freeze
   s.licenses = ["MIT".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.3.0".freeze)
-  s.rubygems_version = "3.1.6".freeze
+  s.rubygems_version = "3.3.26".freeze
   s.summary = "Simple autoconf and cmake builder for developers".freeze
 
-  s.installed_by_version = "3.1.6" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.3.26" if s.respond_to? :installed_by_version
 end

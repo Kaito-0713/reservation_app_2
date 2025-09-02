@@ -13,12 +13,13 @@ module ActiveSupport
       cattr_accessor :local_levels, default: Concurrent::Map.new(initial_capacity: 2), instance_accessor: false
     end
 
-   # Logger::Severity.constants.each do |severity|
-   #   class_eval(<<-EOT, __FILE__, __LINE__ + 1)
-    #    def #{severity.downcase}?                # def debug?
-   #    end                                      # end
-    #  EOT
-   # end
+    Logger::Severity.constants.each do |severity|
+      class_eval(<<-EOT, __FILE__, __LINE__ + 1)
+        def #{severity.downcase}?                # def debug?
+          Logger::#{severity} >= level           #   DEBUG >= level
+        end                                      # end
+      EOT
+    end
 
     def local_log_id
       Fiber.current.__id__

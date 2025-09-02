@@ -367,7 +367,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest.exe -IC:/Ruby27/include/ruby-2.7.0/i386-mingw32 -IC:/Ruby27/include/ruby-2.7.0/ruby/backward -IC:/Ruby27/include/ruby-2.7.0 -I. -IC:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sqlite3-1.7.3/ports/i686-w64-mingw32/sqlite3/3.45.2/include -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong  -fvisibility=hidden conftest.c  -L. -LC:/Ruby27/lib -L. -pipe -s -fstack-protector-strong -LC:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sqlite3-1.7.3/ports/i686-w64-mingw32/sqlite3/3.45.2/lib -LC:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sqlite3-1.7.3/ports/i686-w64-mingw32/sqlite3/3.45.2/lib -lsqlite3 -lz    -lsqlite3  -lsqlite3 -lmsvcrt-ruby270 -lsqlite3  -lsqlite3 -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
-C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\cc36qlDE.o:conftest.c:(.text+0x4): undefined reference to `sqlite3_column_database_name'
+C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccX1lyUX.o:conftest.c:(.text+0x4): undefined reference to `sqlite3_column_database_name'
 collect2.exe: error: ld returned 1 exit status
 checked program was:
 /* begin */
