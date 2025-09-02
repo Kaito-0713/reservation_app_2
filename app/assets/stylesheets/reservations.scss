@@ -1,0 +1,70 @@
+/* reservation 用共通フォーム */
+.reservation-container {
+  max-width: 600px;   // フォームの最大幅
+  margin: 0 auto;     // 画面中央寄せ
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* 入力フィールド */
+.reservation-container input[type="text"],
+.reservation-container input[type="number"],
+.reservation-container input[type="date"],
+.reservation-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+/* ボタン */
+.reservation-container input[type="submit"],
+.reservation-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+/* リンクボタン風 */
+.link-button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #888;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* 部屋情報枠 */
+.room-info {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .reservation-container {
+    padding: 10px;
+  }
+  .reservation-container input,
+  .reservation-container textarea {
+    font-size: 14px;
+  }
+  .reservation-container input[type="submit"] {
+    font-size: 14px;
+  }
+}
+// Place all the styles related to the Reservations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
