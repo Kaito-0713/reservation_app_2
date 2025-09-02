@@ -1,14 +1,14 @@
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/nio4r-2.7.4/ext/nio4r
-C:/Ruby27/bin/ruby.exe -I C:/Ruby27/lib/ruby/2.7.0 -r ./siteconf20250901-44904-k9kgdz.rb extconf.rb
+C:/Ruby27/bin/ruby.exe -I C:/Ruby27/lib/ruby/site_ruby/2.7.0 extconf.rb
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/nio4r-2.7.4/ext/nio4r
-make "DESTDIR=" clean
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-as8i3z sitelibdir\=./.gem.20250902-58068-as8i3z clean
 make: *** ターゲット 'clean' を make するルールがありません.  中止.
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/nio4r-2.7.4/ext/nio4r
-make "DESTDIR="
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-as8i3z sitelibdir\=./.gem.20250902-58068-as8i3z
 make: 'all' に対して行うべき事はありません.
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/nio4r-2.7.4/ext/nio4r
-make "DESTDIR=" install
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-as8i3z sitelibdir\=./.gem.20250902-58068-as8i3z install
 make: 'install' に対して行うべき事はありません.

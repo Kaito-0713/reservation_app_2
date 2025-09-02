@@ -1,16 +1,16 @@
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/racc-1.8.1/ext/racc/cparse
-C:/Ruby27/bin/ruby.exe -I C:/Ruby27/lib/ruby/2.7.0 -r ./siteconf20250901-44904-qi5kcp.rb extconf.rb
+C:/Ruby27/bin/ruby.exe -I C:/Ruby27/lib/ruby/site_ruby/2.7.0 extconf.rb
 creating Makefile
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/racc-1.8.1/ext/racc/cparse
-make "DESTDIR=" clean
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-93ywmv sitelibdir\=./.gem.20250902-58068-93ywmv clean
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/racc-1.8.1/ext/racc/cparse
-make "DESTDIR="
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-93ywmv sitelibdir\=./.gem.20250902-58068-93ywmv
 generating cparse-i386-mingw32.def
 compiling cparse.c
 linking shared-object racc/cparse.so
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/racc-1.8.1/ext/racc/cparse
-make "DESTDIR=" install
-/usr/bin/install -c -m 0755 cparse.so ./.gem.20250901-44904-1nex68f/racc
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-93ywmv sitelibdir\=./.gem.20250902-58068-93ywmv install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20250902-58068-93ywmv/racc

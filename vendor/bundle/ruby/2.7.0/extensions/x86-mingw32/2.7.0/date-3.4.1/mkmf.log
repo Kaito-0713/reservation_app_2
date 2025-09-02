@@ -41,7 +41,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest.exe -IC:/Ruby27/include/ruby-2.7.0/i386-mingw32 -IC:/Ruby27/include/ruby-2.7.0/ruby/backward -IC:/Ruby27/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby27/lib -L. -pipe -s -fstack-protector-strong     -lmsvcrt-ruby270  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
-C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccuoBsoi.o:conftest.c:(.text+0x4): undefined reference to `rb_category_warn'
+C:/Ruby27/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\kkait\AppData\Local\Temp\ccgpxA4p.o:conftest.c:(.text+0x4): undefined reference to `rb_category_warn'
 collect2.exe: error: ld returned 1 exit status
 checked program was:
 /* begin */

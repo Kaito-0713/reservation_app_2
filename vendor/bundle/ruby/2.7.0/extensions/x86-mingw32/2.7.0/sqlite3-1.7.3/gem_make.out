@@ -1,5 +1,5 @@
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sqlite3-1.7.3/ext/sqlite3
-C:/Ruby27/bin/ruby.exe -I C:/Ruby27/lib/ruby/2.7.0 -r ./siteconf20250901-44904-wp1b0x.rb extconf.rb
+C:/Ruby27/bin/ruby.exe -I C:/Ruby27/lib/ruby/site_ruby/2.7.0 extconf.rb
 Building sqlite3-ruby using packaged sqlite3.
 Extracting sqlite-autoconf-3450200.tar.gz into tmp/i686-w64-mingw32/ports/sqlite3/3.45.2... OK
 Running 'configure' for sqlite3 3.45.2... OK
@@ -26,10 +26,10 @@ checking for sqlite3_uint64 in sqlite3.h... yes
 creating Makefile
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sqlite3-1.7.3/ext/sqlite3
-make "DESTDIR=" clean
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-7603va sitelibdir\=./.gem.20250902-58068-7603va clean
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sqlite3-1.7.3/ext/sqlite3
-make "DESTDIR="
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-7603va sitelibdir\=./.gem.20250902-58068-7603va
 generating sqlite3_native-i386-mingw32.def
 compiling aggregator.c
 compiling backup.c
@@ -40,5 +40,5 @@ compiling statement.c
 linking shared-object sqlite3/sqlite3_native.so
 
 current directory: C:/Users/kkait/reservation_app_v2/vendor/bundle/ruby/2.7.0/gems/sqlite3-1.7.3/ext/sqlite3
-make "DESTDIR=" install
-/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20250901-44904-c8fg5u/sqlite3
+make DESTDIR\= sitearchdir\=./.gem.20250902-58068-7603va sitelibdir\=./.gem.20250902-58068-7603va install
+/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20250902-58068-7603va/sqlite3
